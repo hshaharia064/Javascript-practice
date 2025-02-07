@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 p-6">
+
+    <h1 class="text-3xl font-bold mb-6 text-center">E-commerce Cart</h1>
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-8">
+      
+      <!-- Products Section -->
+      <div class="bg-white shadow rounded-lg p-6 md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">Products</h2>
+        <div id="product-list" class="space-y-4">
+          <!-- Products will be injected here -->
+        </div>
+      </div>
+  
+      <!-- Cart Section -->
+      <div class="bg-white shadow rounded-lg p-6 md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">Your Cart</h2>
+        <div id="cart-items" class="space-y-4">
+          <!-- Cart items will be shown here -->
+        </div>
+        <div class="mt-4 text-xl font-bold">
+          Total: $<span id="cart-total">0.00</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="practice.js"></script>
+</body>
+</html>
